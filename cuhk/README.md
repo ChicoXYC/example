@@ -14,15 +14,15 @@ There are basically 3 kinds of web-scraping methods for extracting data from web
 
 Most traditional websites can be scraped by this method. They don't use technology like dynamic loading, and the limitation about scraping this kind of website is usually small.
 
-Example: HK GOLDEN, jobsdb, [initium mews](https://github.com/hupili/python-for-data-and-media-communication-gitbook/blob/master/notes-week-07.md#bonus-scrape-all-articles-features-of-all-pages), [carpark hk](https://github.com/XIAO-Chao/hkbu-big-data-media/tree/master/homework2)
+Example: jobsdb, [initium mews](https://github.com/hupili/python-for-data-and-media-communication-gitbook/blob/master/notes-week-07.md#bonus-scrape-all-articles-features-of-all-pages), [carpark hk](https://github.com/XIAO-Chao/hkbu-big-data-media/tree/master/homework2)
 
-How to scrape: Requests, Beautifulsoup/Re
+How to scrape: Requests, Beautifulsoup/Regular expression
 
 ### 1.2. Browser emulation
 
 Websites with dynamic loading can be scraped by this method. They usually have speed limitation and Anti craping barriers, which need some human actions to activate certain content loading.
 
-Example: [Openrice](https://mp.weixin.qq.com/s/aFfa7WlyT0vwXBlDYvacCg), [CNN](https://github.com/hupili/python-for-data-and-media-communication-gitbook/blob/master/notes-week-08.md#advanced-version-all-pages), [JD](https://nbviewer.jupyter.org/github/iiiJenny/python-data-assignments/blob/master/assignment1/JD_scraper_final.ipynb)
+Example: [Openrice](https://mp.weixin.qq.com/s/aFfa7WlyT0vwXBlDYvacCg), [CNN](https://github.com/hupili/python-for-data-and-media-communication-gitbook/blob/master/notes-week-08.md#advanced-version-all-pages), [JD](https://nbviewer.jupyter.org/github/iiiJenny/python-data-assignments/blob/master/assignment1/JD_scraper_final.ipynb),HK GOLDEN
 
 How to scrape: Selenium browser emulation, User agent, Handling Anti-scraping
 
@@ -31,6 +31,8 @@ How to scrape: Selenium browser emulation, User agent, Handling Anti-scraping
 Social media website usually can be scraped by the method 1 and 2, but need some further steps like Website login model to support. The limitation about scraping social media is higher than above two.
 
 Example: [Weibo keywords searching - "核电站"](https://github.com/ChicoXYC/exercise/blob/master/weibo_scraper/%E6%A0%B8%E7%94%B5%E7%AB%990311-0312.csv), [Twitter keywords searching - "山竹台风"](https://nbviewer.jupyter.org/github/ChicoXYC/exercise/blob/master/twitter-selenium/twitter-try2.ipynb)
+
+There are also other methods like *Network Traces*, if needed.
 
 ## 2. Data analysis and visualization
 
